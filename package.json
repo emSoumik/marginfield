@@ -1,0 +1,44 @@
+{
+  "name": "marginfield",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4337",
+    "build": "tsc --noEmit && vite build && node scripts/prepare-sites-build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run tests/*.test.ts",
+    "convex:dev": "convex dev",
+    "convex:codegen": "convex codegen",
+    "preview": "vite preview --host 127.0.0.1 --port 4337",
+    "deploy": "npx @convex-dev/static-hosting deploy",
+    "validate": "npm test && npm run build",
+    "test:sites": "node --test tests/sites-worker.test.mjs"
+  },
+  "dependencies": {
+    "@agentmail/convex": "0.1.0",
+    "@ai-sdk/openai": "4.0.72",
+    "@convex-dev/agent": "0.7.3",
+    "@convex-dev/auth": "0.0.95",
+    "@convex-dev/static-hosting": "0.2.1",
+    "@firecrawl/firecrawl-convex": "0.1.1",
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource-variable/newsreader": "5.3.0",
+    "@phosphor-icons/react": "2.1.10",
+    "ai": "7.0.109",
+    "convex": "1.46.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "convex-test": "0.0.59",
+    "typescript": "5.9.3",
+    "vite": "8.3.0",
+    "vitest": "4.1.11"
+  }
+}

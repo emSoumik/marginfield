@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.convex/
+coverage/
+.DS_Store
+
+# Credentials and local artifacts
+*.pem
+*.key
+credentials.json
+*.sqlite
+*.sqlite-*
+*.db
+*.rdb
+*.log
+.cache/
+__pycache__/
+playwright-report/
+test-results/
+
+# Temporary publish archives and credentials
+*.tar
+*.tar.gz
+*.tgz
+.openai/*credential*
+.openai/*token*
