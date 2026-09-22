@@ -67,6 +67,6 @@ Recheck the form and event status before any later submission.
 - [Production review](production-review.md) and [release gates](release-gates.md)
 - [New-code and asset provenance](provenance.md)
 
-No live provider call, sent email, public Convex backend deployment or successful hackathon submission is claimed. Canonical component-aware Convex code generation still
+No live provider call, sent email, public Convex backend deployment or successful hackathon submission is claimed. The public no-sign-in preview passed [13 browser checks](evidence/marginfield-public-browser-qa.json) with no captured runtime errors or console warnings. Canonical component-aware Convex code generation still
 requires a configured development deployment. Citation validation checks source
 membership, not the truth of every generated claim.

@@ -7,4 +7,6 @@ This record covers the **no-sign-in sample preview**, not a connected backend or
 - Captured desktop reader/light/briefing and mobile inbox/reader/briefing states in [`docs/evidence/`](docs/evidence/README.md).
 - Captured errors and console warnings: none. The browser and owned preview server were stopped and reaped.
 
+The public Sites version was then exercised in a new signed-out Chrome context: 13 checks passed and no page errors or console warnings were captured after removing unused font preloads. The public run is recorded in [`docs/evidence/`](docs/evidence/README.md).
+
 The supplied Twine screenshots informed the dark editorial hierarchy; this is not a pixel clone. The source Folune screenshot comparison and its prior fixes remain in the separate Folune repository. Physical phones, screen readers, enlarged text, slow networks, live account states and provider flows are not accepted by these screenshots.

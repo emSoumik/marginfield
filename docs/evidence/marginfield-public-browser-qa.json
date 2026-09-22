@@ -1,0 +1,46 @@
+{
+  "checks": [
+    "Page identity, populated reader, no framework overlay",
+    "Search empty state",
+    "Preview briefing is explicitly not live AI",
+    "Citation opens original source",
+    "Bookmark toggle",
+    "Note save persists through reload",
+    "Briefing search empty state",
+    "Preview mail fails clearly without sending",
+    "Light and dark preferences",
+    "Mobile drawer traps focus and restores background",
+    "Mobile bottom navigation, reader/back and briefing",
+    "No horizontal overflow at five viewports",
+    "No page runtime errors"
+  ],
+  "errors": [],
+  "warnings": [],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 844,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "height": 844,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1024,
+      "height": 844,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1488,
+      "height": 844,
+      "horizontalOverflow": false
+    }
+  ]
+}
