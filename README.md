@@ -17,7 +17,7 @@ The connected implementation uses:
 - AgentMail's Convex component for personal inboxes, signed incoming mail, and explicitly requested digest delivery.
 - Codex Sites for the public no-sign-in sample preview; Convex static hosting remains configured for a future connected release.
 
-A GitHub Actions check workflow is included, but no remote CI run has occurred. Local tests are not live integration proof. See [release gates](docs/release-gates.md) and `hackathon.md` for current verification.
+The public repository is [GitHub: emSoumik/marginfield](https://github.com/emSoumik/marginfield). The [public no-sign-in sample preview](https://marginfield-reader.soumikhalder.chatgpt.site) is hosted on Codex Sites. A GitHub Actions check workflow is included; inspect its actual run status before claiming remote CI success. Local tests are not live integration proof. See [release gates](docs/release-gates.md) and `hackathon.md` for current verification.
 
 ## Project map
 
@@ -70,4 +70,4 @@ npm run validate
 
 The official project-local skill is installed at `.agents/skills/convex-hackathon-skill/`. Run `/hackathon` or ask the agent to update the evidence-based root `hackathon.md` after a work session.
 
-The verified deadline is 22 September, noon Pacific (23 September, 00:30 IST). Requirements include a public repository, root log, public `convex.site` or `chatgpt.site` app, social post, and video under three minutes. See [submission checklist](docs/submission-checklist.md). Writing code does not register, publish, or submit an entry.
+The official deadline was 22 September, noon Pacific (23 September, 00:30 IST); this publication is after that deadline and is **not** a claimed valid submission. Requirements include a public repository, root log, public `convex.site` or `chatgpt.site` app, social post, and video under three minutes. See [submission checklist](docs/submission-checklist.md). Writing code does not register, publish, or submit an entry.

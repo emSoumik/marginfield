@@ -198,9 +198,8 @@ router mounts its static routes in [`convex/http.ts`](../convex/http.ts), and
 `convex/convex.config.ts` mounts the component. The Vite production build
 creates `dist/`.
 
-This component remains configured for a future connected `convex.site` release. The public no-sign-in sample preview uses **Codex Sites** on `chatgpt.site` instead. This sample does not exercise the Convex backend or sponsor providers. A configured deployment, public URL, browser
-smoke test against the public host, and submission form entry are still release
-gates. No deployment command is run by `npm run build`.
+This component remains configured for a future connected `convex.site` release. The public no-sign-in sample preview uses **Codex Sites** on `chatgpt.site` instead. This sample does not exercise the Convex backend or sponsor providers. A public sample URL and signed-out browser preview check now exist. A connected
+Convex deployment, real provider round trips and submission remain open gates. No deployment command is run by `npm run build`.
 
 ## Build-time tools, not product integrations
 
@@ -253,8 +252,8 @@ form. Marginfield has the new project structure, root log, responsive app, and
 registered integrations. The following remain **not verified in this
 repository**:
 
-- public GitHub repository URL;
-- public `chatgpt.site` sample URL (pending deployment and signed-out verification);
+- public GitHub repository exists: https://github.com/emSoumik/marginfield;
+- public `chatgpt.site` sample exists: https://marginfield-reader.soumikhalder.chatgpt.site;
 - live connected Convex deployment and sponsor round trips;
 - live Convex Auth, Firecrawl, OpenAI, and AgentMail round trips;
 - public-host mobile and desktop smoke tests;

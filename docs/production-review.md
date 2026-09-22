@@ -9,7 +9,7 @@
 | Lane | Result |
 |---|---|
 | A — Accessibility | Named icon controls, visible focus, native dialogs, labelled inputs, inert/focus-contained drawer. Keyboard drawer tested. VoiceOver and zoom acceptance pending. |
-| B — Performance | Reserved image dimensions, local/preloaded variable fonts, no layout-property animation, bounded cloud list reads. Production JS 301.24 kB / 90.19 kB gzip at verification. Large generated photo needs responsive optimization; no field-performance claim. |
+| B — Performance | Reserved image dimensions, locally bundled variable fonts, no layout-property animation, bounded cloud list reads. Production JS 301.24 kB / 90.19 kB gzip at verification. Large generated photo needs responsive optimization; no field-performance claim. |
 | C — Mobile | 390px reading/list screenshots; no horizontal overflow at five widths. `dvh`, safe-area padding, zoom-preserving viewport, 16px inputs, no forced form autofocus. Real hardware pending. |
 | D — Forms | Submit states, native validation, retained values and announced errors. Preview note/save and mail-rejection exercised. Cloud signup, recovery, provider failure/retry pending. |
 | E — Stability/states | Loading, empty, failed and preview states; React error boundary. Fixed briefing search empty state. Backend attempts/watchdog reject late work. |

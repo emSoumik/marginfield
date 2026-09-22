@@ -11,9 +11,9 @@ Verified against https://www.convex.dev/hackathons/all-gas and https://luma.com/
 - [x] Prepare submission, tooling, demo and secure-setup documentation locally.
 - [ ] Complete live Convex, Firecrawl, OpenAI, and AgentMail proof.
 - [x] Obtain approval for a public GitHub repository; secret-scan before push.
-- [ ] Publish and verify the public GitHub repository.
+- [x] Publish and verify the public GitHub repository.
 - [x] Obtain approval for a public chatgpt.site sample preview.
-- [ ] Publish and verify the signed-out sample preview.
+- [x] Publish and verify a signed-out sample preview (not live sponsor integrations).
 - [ ] Record a video under three minutes using real integrations.
 - [ ] Obtain approval and publish a social post tagging the four sponsors.
 - [ ] Submit repo, live app, and video on vibeapps.dev before the deadline.
@@ -47,3 +47,5 @@ Do not use preview fixtures as evidence of live provider work. Do not claim sent
 The owner authorized public GitHub and Sites preview publication, but not a live Convex deployment, social post, or hackathon submission. Credentials will be configured
 securely by the owner. See [submission pack](submission.md) and
 [launch runbook](launch-runbook.md).
+
+**Timing:** The official September 22 noon Pacific deadline has passed. The public preview and repository are portfolio/project artifacts, not an on-time or complete submission. No social post or form submission was made.
